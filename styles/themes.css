@@ -4,3 +4,40 @@
 ✦ theme-light — класс светлой темы
 ✦ не забудьте описать стили для изменения темы через медизапрос пользовательских предпочтений
 */
+:root.theme-light {
+    --text_stroke: #fff;
+    --accent_color: #000;
+    --background_color: #fff;
+    --mix_mode: #fff;
+    --fvs_min: 400;
+    --fvs_max: 700;
+    --background_image: repeating-linear-gradient(to right, #d3d3d3 0 2px, transparent 2px 4px),
+        repeating-linear-gradient(to bottom, #d3d3d3 0 2px, transparent 2px 4px),
+        repeating-linear-gradient(to bottom, #e7e7e7 0.01%, #1a1a1a);
+    }
+
+:root.theme-dark {
+    --text_stroke: #000;
+    --accent_color: #00CC14;
+    --background_color: #000;
+    --mix_mode: #00CC14;
+    --fvs-min: 465;
+    --fvs-max: 785;
+    --background_image: repeating-linear-gradient(to right, #000 0 2px, transparent 2px 4px),
+        repeating-linear-gradient(to bottom, #000 0 2px, transparent 2px 4px),
+        repeating-linear-gradient(to bottom, #007f0c 0.01%, #004306);
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+     --text_stroke: #000;
+     --accent_color: #00CC14;
+     --background_color: #000;
+     --mix_mode: #00CC14;
+     --fvs_min: 465;
+     --fvs_max: 785;
+    --background_image: repeating-linear-gradient(to right, #000 0 2px, transparent 2px 4px),
+        repeating-linear-gradient(to bottom, #000 0 2px, transparent 2px 4px),
+        repeating-linear-gradient(to bottom, #007f0c 0.01%, #004306);
+    }
+}
