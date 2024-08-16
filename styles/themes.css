@@ -21,8 +21,8 @@
     --accent_color: #00CC14;
     --background_color: #000;
     --mix_mode: #00CC14;
-    --fvs-min: 465;
-    --fvs-max: 785;
+    --fvs_min: 465;
+    --fvs_max: 785;
     --background_image: repeating-linear-gradient(to right, #000 0 2px, transparent 2px 4px),
         repeating-linear-gradient(to bottom, #000 0 2px, transparent 2px 4px),
         repeating-linear-gradient(to bottom, #007f0c 0.01%, #004306);

@@ -141,6 +141,7 @@
   border: 2px solid var(--accent_color);
 }
 
+
 .card_list {
   display: flex;
   flex-direction: column;
@@ -187,7 +188,7 @@
   z-index: 2;
 }
 
-@supports((text-stroke: 1px var(--text_stroke)) or (-webkit-text-stroke: 1px var(--text-stroke))) {
+@supports((text-stroke: 1px var(--text_stroke)) or (-webkit-text-stroke: 1px var(--text_stroke))) {
   .label {
     -webkit-text-stroke: 1px var(--text_stroke);
     text-shadow: none;
@@ -211,6 +212,7 @@
   background-color: var(--background_color);
   border: 2px solid var(--accent_color);
   transition: box-shadow 0.3s transform 0.3s ease;
+  
 
   &:focus {
     outline: none;
@@ -264,6 +266,7 @@
   block-size: 38px;
   padding: 0;
   transition: 0.3s ease;
+ 
 
   &:focus {
     outline: none;
@@ -276,6 +279,7 @@
 }
 
 .like-icon {
+  display: flex;
   cursor: pointer;
   align-self: center;
 }
@@ -377,6 +381,10 @@
     top: 14px;
     right: 11px;
   }
+
+.card_text-title {
+  padding-top: 15px;
+}
 
   .contener__save {
     flex-direction: column;

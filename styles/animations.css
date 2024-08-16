@@ -74,7 +74,7 @@
   
   .like-icon:hover .main-body {
     cursor: pointer;
-    fill: var(--accent-color);
+    fill: var(--accent_color);
     transition-delay: 0.05s;
   }
   
@@ -95,13 +95,13 @@
   
   .like-icon.is-liked .main-body {
     fill: var(--heart);
-    transition-delay: 0.06s;
+    transition-delay: 0.05s;
   }
   
   .like-icon.is-liked .contour {
     transition: fill 0.3s linear;
     fill: var(--heart);
-    transition-delay: 0.06s;
+    transition-delay: 0.05s;
   }
   
   .like-icon.is-liked .heart {
