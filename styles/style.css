@@ -141,7 +141,6 @@
   border: 2px solid var(--accent_color);
 }
 
-
 .card_list {
   display: flex;
   flex-direction: column;
@@ -377,14 +376,17 @@
     padding-block-start: 120px;
   }
 
+  .card_text {
+    font-weight: 465;
+    font-size: 18px;
+    line-height: 21px;
+    letter-spacing: 0.2px;
+}
+
   .label {
     top: 14px;
     right: 11px;
   }
-
-.card_text-title {
-  padding-top: 15px;
-}
 
   .contener__save {
     flex-direction: column;
